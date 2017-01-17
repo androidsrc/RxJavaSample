@@ -21,6 +21,12 @@
             android:layout_height="wrap_content"
             android:text="Async Task"/>
 
+        <Button
+            android:id="@+id/btn_rx_binding_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RxBinding for EditText"/>
+
 
     </LinearLayout>
 </ScrollView>

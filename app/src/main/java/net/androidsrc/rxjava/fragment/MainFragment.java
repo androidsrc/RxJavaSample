@@ -19,6 +19,11 @@ public class MainFragment extends BaseFragment {
         clickedOn(new AsyncTaskDemoFragment());
     }
 
+    @OnClick(R.id.btn_rx_binding_et)
+    void demoEditTextListener() {
+        clickedOn(new RxBindingTextWatcherDemo());
+    }
+
 
     private void clickedOn(@NonNull Fragment fragment) {
         final String tag = fragment.getClass().toString();

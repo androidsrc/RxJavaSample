@@ -38,4 +38,6 @@ dependencies {
     //RxJava
     compile 'io.reactivex:rxandroid:1.2.1'
     compile 'io.reactivex:rxjava:1.1.6'
+    //RxBindings
+    compile 'com.jakewharton.rxbinding:rxbinding:1.0.0'
 }
